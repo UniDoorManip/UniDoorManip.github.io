@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="Deformable Neural Radiance Fields creates free-viewpoint portraits (nerfies) from casually captured videos.">
+  <meta name="keywords" content="Nerfies, D-NeRF, NeRF">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>UniDoorManip: Learning Universal Door Manipulation Policy Over Large-scale and Diverse Door Manipulation Environments</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+
+  </div>
+</nav>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">UniDoorManip: Learning Universal Door Manipulation Policy Over Large-scale and Diverse Door Manipulation Environments</h1>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="https://arxiv.org/pdf/"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              <!-- Video Link. -->
+              <span class="link-block">
+                <a href="https://www.youtube.com/???"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>Video</span>
+                </a>
+              </span>
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/UniDoorManip/UniDoorManip"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+              <!-- Dataset Link. -->
+              <span class="link-block">
+                <a href="https://github.com/UniDoorManip/UniDoorManip?tab=readme-ov-file#dataset"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="far fa-images"></i>
+                  </span>
+                  <span>Data</span>
+                  </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <img src="./static/images/pipeline.png"/>
+            <p class="is-bold"></p>
+      <h2 class="subtitle has-text-centered">
+         XXX.
+      </h2>
+    </div>
+  </div>
+</section>
+
+
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+           Learning a universal manipulation policy encompassing doors with diverse categories, geometries and mechanisms, is crucial for future embodied agents to effectively work in complex and broad real-world scenarios. Due to the limited datasets and unrealistic simulation environments, previous works fail to achieve good performance across various doors. In this work, we build a novel door manipulation environment reflecting different realistic door manipulation mechanisms, and further equip this environment with a large-scale door dataset covering 6 door categories with hundreds of door bodies and handles, making up thousands of different door instances. Additionally, to better emulate real-world scenarios, we introduce a mobile robot as the agent and use the partial and occluded point cloud as the observation, which are not considered in previous works while possessing significance for real-world implementations. To learn a universal policy over diverse doors, we propose a novel framework disentangling the whole manipulation process into three stages, and integrating them by training in the reversed order of inference. Extensive experiments validate the effectiveness of our designs and demonstrate our framework's strong performance in simulation and real-world.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+
+    <!-- Paper video. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Video</h2>
+        <div class="publication-video">
+          <iframe src="./static/videos/ID_7401.mp4"
+                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+    <!--/ Paper video. -->
+
+
+
+
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Dataset</h2>
+        <hr style="margin-top:0px">
+        <h3 class="title is-4" style="margin-top:20px; margin-bottom:0px; color:#717980"><b>Annotation and Generation</b></h3>
+        <div class="container is-max-desktop">
+          <div class="hero-body" style="padding-bottom: 20px;">
+            <img src="./static/images/dataset.png"/>
+            <p class="is-bold"></p>
+          </div>
+        </div>
+
+        <div class="container is-max-desktop">
+          <div class="hero-body" style="padding-top: 20px;">
+            <img src="./static/images/dataset1.png"/>
+          </div>
+        </div>
+      </div>
+    </div>
+   </div>
+
+   <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Method</h2>
+        <hr style="margin-top:0px">
+        <h3 class="title is-4" style="margin-top:20px; margin-bottom:0px; color:#717980"><b>Full Pipeline</b></h3>
+        <div class="container is-max-desktop">
+          <div class="hero-body" style="padding-top: 20px; padding-bottom: 20px;">
+            <img src="./static/images/fu_pipeline.png"/>
+            <p class="is-bold"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+   </div>
+
+
+
+
+   <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Results</h2>
+        <hr style="margin-top:0px">
+        <h3 class="title is-4" style="margin-top:20px; margin-bottom:0px; color:#717980"><b>Affordance Results</b></h3>
+        <div class="container is-max-desktop">
+          <div class="hero-body" style="padding-top: 20px; padding-bottom: 20px;">
+            <img src="./static/images/xxx.png"/>
+            <p class="is-bold"></p>
+          </div>
+        </div>
+
+        <h3 class="title is-4" style="margin-top:20px; margin-bottom:0px; color:#717980"><b>Simulation Results</b></h3>
+        <div class="container is-max-desktop" style="display: flex;">
+          <div class="hero-body" style="padding-top: 20px; padding-bottom: 20px; width: 25%;">
+            <img src="./static/images/cabinet.gif"/>
+            <p class="is-bold"></p>
+          </div>
+          <div class="hero-body" style="padding-top: 20px; padding-bottom: 20px; width: 25%;">
+            <img src="./static/images/cabinet_1.gif"/>
+            <p class="is-bold"></p>
+          </div>
+          <div class="hero-body" style="padding-top: 20px; padding-bottom: 20px; width: 25%;">
+            <img src="./static/images/fridge.gif"/>
+            <p class="is-bold"></p>
+          </div>
+          <div class="hero-body" style="padding-top: 20px; padding-bottom: 20px; width: 25%;">
+            <img src="./static/images/fridge_1.gif"/>
+            <p class="is-bold"></p>
+          </div>
+        </div>
+
+
+        <div class="container is-max-desktop" style="display: flex;">
+          <div class="hero-body" style="padding-top: 20px; padding-bottom: 20px; width: 25%;">
+            <img src="./static/images/door.gif"/>
+            <p class="is-bold"></p>
+          </div>
+          <div class="hero-body" style="padding-top: 20px; padding-bottom: 20px; width: 25%;">
+            <img src="./static/images/door_1.gif"/>
+            <p class="is-bold"></p>
+          </div>
+          <div class="hero-body" style="padding-top: 20px; padding-bottom: 20px; width: 25%;">
+            <img src="./static/images/window.gif"/>
+            <p class="is-bold"></p>
+          </div>
+          <div class="hero-body" style="padding-top: 20px; padding-bottom: 20px; width: 25%;">
+            <img src="./static/images/window_1.gif"/>
+            <p class="is-bold"></p>
+          </div>
+        </div>
+
+
+        <div class="container is-max-desktop" style="display: flex;">
+          <div class="hero-body" style="padding-top: 20px; padding-bottom: 20px; width: 25%;">
+            <img src="./static/images/car.gif"/>
+            <p class="is-bold"></p>
+          </div>
+          <div class="hero-body" style="padding-top: 20px; padding-bottom: 20px; width: 25%;">
+            <img src="./static/images/car_1.gif"/>
+            <p class="is-bold"></p>
+          </div>
+          <div class="hero-body" style="padding-top: 20px; padding-bottom: 20px; width: 25%;">
+            <img src="./static/images/safe.gif"/>
+            <p class="is-bold"></p>
+          </div>
+          <div class="hero-body" style="padding-top: 20px; padding-bottom: 20px; width: 25%;">
+            <img src="./static/images/safe_1.gif"/>
+            <p class="is-bold"></p>
+          </div>
+        </div>
+
+
+        <h3 class="title is-4" style="margin-top:20px; margin-bottom:0px; color:#717980"><b>RealWorld Results</b></h3>
+        <div class="container is-max-desktop" style="display: flex;">
+          <div class="hero-body" style="padding-top: 20px; padding-bottom: 20px; width: 50%;">
+            <img src="./static/images/opendoor.gif"/>
+            <p class="is-bold"></p>
+          </div>
+          <div class="hero-body" style="padding-top: 20px; padding-bottom: 20px; width: 50%;">
+            <img src="./static/images/openwindow.gif"/>
+            <p class="is-bold"></p>
+          </div>
+        </div>
+
+
+        <div class="container is-max-desktop" style="display: flex;">
+          <div class="hero-body" style="padding-top: 20px; padding-bottom: 20px; width: 50%;">
+            <img src="./static/images/opensafe.gif"/>
+            <p class="is-bold"></p>
+          </div>
+          <div class="hero-body" style="padding-top: 20px; padding-bottom: 20px; width: 50%;">
+            <img src="./static/images/opencabinet.gif"/>
+            <p class="is-bold"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+   </div>
+
+</section>
+
+
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>xxx
+}</code></pre>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <a class="icon-link"
+         href="xxx">
+        <i class="fas fa-file-pdf"></i>
+      </a>
+      <a class="icon-link" href="https://github.com/UniDoorManip/UniDoorManip" class="external-link" disabled>
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+           Website template borrowed
+              from <a href="https://github.com/nerfies/nerfies.github.io">NeRFies</a>, <a
+                href="https://peract.github.io/">PerAct</a> and <a href="https://voxposer.github.io/">VoxPoser</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
